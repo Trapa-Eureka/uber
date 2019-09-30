@@ -1,8 +1,9 @@
 {
     "name": "uber",
     "version": "1.0.0",
+    "description": "full-stack study for the Uber Clone. - GraphQL, Typescript, NodeJS",
     "main": "index.js",
-    "repository": "https://github.com/Trapa-Eureka/uber.git",
+    "repository": "https://github.com/Trapa-Eureka/uber",
     "author": "trapa <1982gaya@gmail.com>",
     "license": "MIT",
     "devDependencies": {
@@ -11,5 +12,8 @@
         "ts-node": "^8.4.1",
         "tslint-config-prettier": "^1.18.0",
         "typescript": "^3.6.3"
+    },
+    "scripts": {
+        "dev": "cd src && nodemon --exec ts-node index.ts -e ts,graphql"
     }
 }
