@@ -11,7 +11,7 @@ class App {
     }
     private middlewares = () : void => {
         this.app.express.use(cors());
-        this.app.context.use(logger("dev"));
+        this.app.express.use(logger("dev"));
         this.app.express.use(helmet());
     };
 }
