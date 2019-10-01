@@ -71,6 +71,10 @@ class User extends BaseEntity {
         return `${this.firstName} ${this.lastName}`;
     }
 
+    public comparePassword(password: string): Promise<boolean> {
+        return bcrypt.compare(password, this.password);
+    }
+
     // BeforeInsert : call method before make new object 
     // BeforeUpdate : call method before update to object
     @BeforeInsert()
