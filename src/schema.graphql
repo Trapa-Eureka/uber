@@ -22,7 +22,7 @@ type Ride {
   distance: String!
   duration: String!
   createdAt: String!
-  updatedAt: String!
+  updatedAt: String
 }
 
 type User {
