@@ -5,7 +5,7 @@ full-stack study for the Uber Clone. - GraphQL, Typescript, NodeJS
 
 ### Public Resolvers:
 
-- [ ] Sign In / Sign Up with Facebook
+- [x] Sign In / Sign Up with Facebook
 - [ ] Sign In with Email
 - [ ] Start Phone Number Verification
 - [ ] Complete Phone Number Verification
@@ -15,6 +15,8 @@ full-stack study for the Uber Clone. - GraphQL, Typescript, NodeJS
 
 ### Private Resolvers:
 
+- [ ] Generate JWT
+- [ ] Verify JWT
 - [ ] Verify Email
 - [ ] Get my Profile
 - [ ] Update my Profile
