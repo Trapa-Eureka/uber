@@ -13,10 +13,15 @@ full-stack study for the Uber Clone. - GraphQL, Typescript, NodeJS
 
 ---
 
-### Private Resolvers:
+### Authentication:
 
 - [ ] Generate JWT
 - [ ] Verify JWT
+
+---
+
+### Private Resolvers:
+
 - [ ] Verify Email
 - [ ] Get my Profile
 - [ ] Update my Profile
