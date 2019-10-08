@@ -22,8 +22,8 @@ full-stack study for the Uber Clone. - GraphQL, Typescript, NodeJS
 
 ### Private Resolvers:
 
+- [x] Get my Profile
 - [ ] Verify Email
-- [ ] Get my Profile
 - [ ] Update my Profile
 - [ ] Toggle Driving Mode
 - [ ] Report location / Orientation
