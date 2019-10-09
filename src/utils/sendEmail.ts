@@ -5,7 +5,7 @@ const mailGunClient = new Mailgun({
     domain: "sandboxed5354abd43e4e6494a4504d1946080d.mailgun.org"
 });
 
-const sendEmail = (subject:string, html:string) => {
+const sendEmail = (subject: string, html: string) => {
     const emailData = {
         from: "1982gaya@gmail.com",
         to: "1982gaya@gmail.com",

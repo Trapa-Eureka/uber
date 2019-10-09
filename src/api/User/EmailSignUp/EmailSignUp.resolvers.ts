@@ -48,7 +48,7 @@ const resolvers: Resolvers = {
                             ok: false,
                             error: "You haven't verified your phone number",
                             token: null
-                        }
+                        };
                     }
                 }
             } catch(error) {
