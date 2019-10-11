@@ -28,7 +28,7 @@ full-stack study for the Uber Clone. - GraphQL, Typescript, NodeJS
 - [x] Update my Profile
 - [x] Toggle Driving Mode
 - [x] Report location / Orientation
-- [ ] Add Place
+- [x] Add Place
 - [ ] Edit Place
 - [ ] Delete Place
 - [ ] See Nearby Drivers
