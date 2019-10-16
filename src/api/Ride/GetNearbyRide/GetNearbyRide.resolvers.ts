@@ -7,7 +7,7 @@ import privateResolver from "../../../utils/privateResolver";
 
 const resolvers: Resolvers = {
     Query: {
-        GetNearbyRides: privateResolver(
+        GetNearbyRide: privateResolver(
             async(_, __, { req }) : Promise<GetNearbyRideResponse> => {
                 const user: User = req.user;
                 if (user.isDriving) {
