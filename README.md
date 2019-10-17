@@ -39,7 +39,8 @@ full-stack study for the Uber Clone. - GraphQL, Typescript, NodeJS
 - [x] Subscribe to Nearby Ride Requests
 - [x] Update Ride Status
 - [x] Get Ride
-- [ ] Subscribe to Ride Status
+- [x] Subscribe to Ride Status
+- [ ] Create a Chat Room
 - [ ] Get Chat Room Messages
 - [ ] Subscribe to Chat Room Messages
 - [ ] Send a Chat Message
