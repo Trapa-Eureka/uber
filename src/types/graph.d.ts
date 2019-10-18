@@ -52,7 +52,6 @@ export interface User {
   lastLat: number | null;
   lastOrientation: number | null;
   fbId: string | null;
-  chat: Chat | null;
   messages: Array<Message> | null;
   ridesAsPassenger: Array<Ride> | null;
   ridesAsDriver: Array<Ride> | null;
@@ -64,7 +63,6 @@ export interface User {
 export interface Chat {
   id: number;
   messages: Array<Message>;
-  participants: Array<User>;
   createdAt: string;
   updatedAt: string | null;
 }
